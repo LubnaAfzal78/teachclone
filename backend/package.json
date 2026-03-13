@@ -1,0 +1,16 @@
+{
+  "name": "teachnova-backend",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "dev": "node --env-file=.env server.js",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@aws-sdk/client-bedrock-runtime": "^3.888.0",
+    "cors": "^2.8.5",
+    "express": "^4.21.2"
+  }
+}
