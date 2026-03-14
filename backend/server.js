@@ -5,7 +5,7 @@ import { BedrockRuntimeClient, ConverseCommand } from "@aws-sdk/client-bedrock-r
 const app = express();
 const PORT = process.env.PORT || 8787;
 const REGION = process.env.AWS_REGION || "us-east-1";
-const MODEL_ID = process.env.AWS_BEDROCK_MODEL_ID || "amazon.nova-lite-v1:0";
+const MODEL_ID = process.env.AWS_BEDROCK_MODEL_ID || "amazon.nova-micro-v1:0";
 
 const client = new BedrockRuntimeClient({ region: REGION });
 
